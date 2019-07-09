@@ -1,0 +1,46 @@
+.boxAbout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.LogoAbout {
+  background: rgba($secundary, 0.02);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  padding: 1em;
+  overflow: hidden;
+  img {
+    width: 144px;
+    height: 144px;
+  }
+
+}
+
+.titleLogoAbout{
+  color:$darkAlt;
+  text-align: center; 
+  font-size: 24px;
+}
+
+
+.topAbout{
+  background: $white;
+  padding: 3em 0;
+  p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: 400;
+    span {
+      font-weight: 500;
+    }
+    strong {
+      font-weight: 600;
+    }
+  }
+}

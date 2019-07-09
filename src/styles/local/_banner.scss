@@ -1,0 +1,36 @@
+.bgBanner {
+  background: $darkAlt;
+  color: $whiteAlt;
+  padding: 2em 0;
+  h3 {
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 144%;
+  }
+}
+
+.infoBanner {
+  padding: 7em 0;
+  color: $darkAlt;
+  letter-spacing: 0.5pt;
+  p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: 400;
+    span {
+      font-weight: 500;
+    }
+    strong {
+      font-weight: 600;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bgBanner {
+    h3 {
+      text-align: center;
+    }
+  }
+}

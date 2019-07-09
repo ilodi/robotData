@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600&display=swap');
+
+//Color
+
+$primary:#0768b1;
+$secundary:#00B2C2;
+$secundaryAlt:#194b69;
+$dark:#06090a;
+$darkAlt:#373737;
+$darkAltI:#01080C;
+$white:#FCFCFC;
+$whiteAlt:#FEFFEE;
+
+//Animate
+
+@mixin trans($time) {
+  transition: all $time cubic-bezier(1, -0.37, 0.92, 1.33);
+}
+//Hover
+@mixin hover_ui($time, $bcolor, $fcolor) {
+  transition-property: all;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition-duration: $time;
+  background: $bcolor;
+  color: $fcolor;
+}
