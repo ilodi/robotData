@@ -1,6 +1,6 @@
-import React from "react";
-import TopAbout from "./about/TopAbout";
-import BottomAbout from "./about/BottomAbout";
+import React from 'react';
+import TopAbout from './about/TopAbout';
+import BottomAbout from './about/BottomAbout';
 
 const About = ({ iconAboutA, logo, iconAboutB }) => {
   return (

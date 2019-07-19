@@ -9,7 +9,10 @@ class BottomAbout extends Component {
             {/*  */}
             <div className="col s12 m4 boxAbout">
               <div className="LogoAbout">
-                <img src={this.props.iconAboutA} alt="Unify all you Data Sources" />
+                <img
+                  src={this.props.iconAboutA}
+                  alt="Unify all you Data Sources"
+                />
               </div>
               <div className="titleLogoAbout">
                 <p>
@@ -19,9 +22,12 @@ class BottomAbout extends Component {
             </div>
             {/*  */}
             {/*  */}
-            <div className="col s12 m4">
+            <div className="col s12 m4 boxAbout">
               <div className="LogoAbout">
-                <img src={this.props.iconAboutB}  alt="Analyze &amp; Build you Data" />
+                <img
+                  src={this.props.iconAboutB}
+                  alt="Analyze &amp; Build you Data"
+                />
               </div>
               <div className="titleLogoAbout">
                 <p>
@@ -31,9 +37,9 @@ class BottomAbout extends Component {
             </div>
             {/*  */}
             {/*  */}
-            <div className="col s12 m4">
+            <div className="col s12 m4 boxAbout">
               <div className="LogoAbout">
-                <img src={this.props.logo}  alt="Develop Optimized Solutions" />
+                <img src={this.props.logo} alt="Develop Optimized Solutions" />
               </div>
               <div className="titleLogoAbout">
                 <p>
